@@ -2,7 +2,6 @@ services:
 - type: web
   name: express-with-prisma-orm
   runtime: node
-  repo: https://github.com/<your-github-org>/<your-github-repo>
   plan: free
   envVars:
   - key: DATABASE_URL
