@@ -9,7 +9,7 @@ services:
       name: express-with-prisma-orm-db
       property: connectionString
   region: oregon # optional: customize this region
-  buildCommand: npm install
+  buildCommand: npm install --production=false
   startCommand: npm run start
   preDeployCommand: npx prisma migrate deploy
 
